@@ -46,7 +46,7 @@ export default function Login() {
         <ContentStyle>
           <Stack sx={{ mb: 5 }}>
             <Typography variant="h4" gutterBottom>
-              KING&JOE 
+              AKR BRANDS
             </Typography>
             <Typography sx={{ color: 'text.secondary' }}>Portal de Licenciados
                 <Container sx={{ color: 'text.secondary',marginLeft:'50%',marginTop:-7 }}>
@@ -61,14 +61,7 @@ export default function Login() {
 
           <LoginForm />
 
-          <MHidden width="smUp">
-            <Typography variant="body2" align="center" sx={{ mt: 3 }}>
-            Você já possui conta  ?&nbsp;
-              <Link variant="subtitle2" component={RouterLink} to="/registrar">
-                Criar
-              </Link>
-            </Typography>
-          </MHidden>
+          
         </ContentStyle>
       </Container>
     </RootStyle>

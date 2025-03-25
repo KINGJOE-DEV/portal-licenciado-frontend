@@ -29,7 +29,7 @@ export default function LoginForm() {
 
   useEffect(() => {
     //excluir cokkies antigos caso existam
-    console.log('APAGAR COOKIE')
+    console.log('TESTE MUDOU APAGAR COOKIE')
     setAutenticado('autenticado', false,{ path: '/'  });
     //removeAutenticado('autenticado');
   }, [])
@@ -102,6 +102,7 @@ export default function LoginForm() {
           />
         </Stack>
 
+        {/*
         <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ my: 2 }}>
           <FormControlLabel
             control={<Checkbox {...getFieldProps('remember')} checked={values.remember} />}
@@ -112,6 +113,7 @@ export default function LoginForm() {
             Esqueceu a senha ?
           </Link>
         </Stack>
+        */}
         {msg_login ? 
      
           <Alert severity="warning"> {msg_login}</Alert>
