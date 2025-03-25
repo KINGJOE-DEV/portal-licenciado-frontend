@@ -6,7 +6,7 @@ steps:
   - name: Build da Imagem Docker
     image: docker:latest
     commands:
-      - docker build -t app_portal_licenciado:v0.0.1 .
+      - docker build -t portal_licenciado:v0.0.1 .
 
   - name: Subir Serviço no Docker Swarm
     image: docker:latest
